@@ -1,0 +1,41 @@
+body{
+    background-color: #4e1616;
+    color:#fff;
+}
+
+
+
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+
+
+.clock-items p{
+    margin:0;
+    padding:0;
+    border-radius: 5px;;
+}
+
+.clock-items{
+      width: 32%;
+      border-radius: 10px;
+      text-align: center;
+      margin-right: 3%;
+      padding-top:30px;
+      padding-bottom: 30px;
+      font-size: 70px;
+      letter-spacing: 5px;
+}
